@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: moergo-sc
-      url-base: https://github.com/clearskystudio/zmk
+      url-base: https://github.com/clearskystudio
   projects:
     - name: zmk
       remote: moergo-sc
