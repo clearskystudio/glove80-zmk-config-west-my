@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: moergo-sc
+      url-base: https://github.com/clearskystudio/zmk
+  projects:
+    - name: zmk
+      remote: moergo-sc
+      revision: main
+      import: app/west.yml
+  self:
+    path: config
