@@ -26,13 +26,11 @@
 
 &mmv {
     time-to-max-speed-ms = <60>;
-    delay-before-movement-ms = <40>;
     acceleration-exponent=<2>;
 };
 
 &mwh {
     time-to-max-speed-ms = <30>;
-    delay-before-movement-ms = <150>;
     acceleration-exponent=<2>;
 };
 
