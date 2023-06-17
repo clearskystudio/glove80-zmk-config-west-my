@@ -175,12 +175,12 @@ macros {
 
         layer_Base {
             bindings = <
-     &trans    &trans   &trans    &trans           &trans                                                                                                              &trans     &trans    &trans    &trans     &trans
-     &trans    &kp N1   &kp N2    &kp N3  &rlt 0 NUMBER_4  &kp N5                                                                                     &kp N6  &elt 0 NUMBER_7     &kp N8    &invlp    &invrp     &trans
-     &trans     &kp Q    &kp W     &kp F            &kp P   &kp B                                                                                      &kp J            &kp L      &kp U     &kp Y  &kp SEMI     &trans
-    &kp ESC     &kp A    &kp R     &kp S            &kp T   &kp G                                                                                      &kp M            &kp N      &kp E     &kp I     &kp O    &kp SQT
-   &kp LGUI     &kp Z    &kp X     &kp C            &kp D   &kp V    &lt 1 SPACE  &mt LCTRL BSPC   &kp TAB  &lt 3 RGUI  &mt RCTRL RET    &lt 5 SPACE   &kp K            &kp H  &kp COMMA   &kp DOT  &kp FSLH  &kp PG_UP
- &magic 2 0  &kp HOME  &kp END  &kp LEFT        &kp RIGHT          &mt LSHFT ESC           &to 1  &kp LALT    &kp RALT          &to 5  &mt RSHFT ESC                   &kp UP   &kp DOWN  &kp LBKT  &kp RBKT  &kp PG_DN
+     &trans    &trans   &trans    &trans           &trans                                                                                                                   &trans     &trans    &trans    &trans     &trans
+     &trans    &kp N1   &kp N2    &kp N3  &rlt 0 NUMBER_4  &kp N5                                                                                          &kp N6  &elt 0 NUMBER_7     &kp N8    &invlp    &invrp     &trans
+     &trans     &kp Q    &kp W     &kp F            &kp P   &kp B                                                                                           &kp J            &kp L      &kp U     &kp Y  &kp SEMI     &trans
+    &kp ESC     &kp A    &kp R     &kp S            &kp T   &kp G                                                                                           &kp M            &kp N      &kp E     &kp I     &kp O    &kp SQT
+   &kp LGUI     &kp Z    &kp X     &kp C            &kp D   &kp V  &mt LSHFT SPACE  &lt 1 BSPC  &mt LCTRL TAB  &mt RCTRL RGUI  &lt 5 RET  &mt RSHFT SPACE   &kp K            &kp H  &kp COMMA   &kp DOT  &kp FSLH  &kp PG_UP
+ &magic 2 0  &kp HOME  &kp END  &kp LEFT        &kp RIGHT             &mt LALT ESC       &none          &to 1           &to 5      &none     &mt RALT ESC                   &kp UP   &kp DOWN  &kp LBKT  &kp RBKT  &kp PG_DN
             >;
         };
 
@@ -241,3 +241,4 @@ macros {
 
     };
 };
+
