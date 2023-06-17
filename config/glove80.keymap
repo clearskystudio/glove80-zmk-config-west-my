@@ -23,6 +23,17 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/outputs.h>
 
+&mmv {
+    time-to-max-speed-ms = <60>;
+    delay-before-movement-ms = <40>;
+    acceleration-exponent=<2>;
+};
+
+&mwh {
+    time-to-max-speed-ms = <30>;
+    delay-before-movement-ms = <150>;
+    acceleration-exponent=<2>;
+};
 
 / {
     /* Glove80 system behavior & macros */
@@ -166,17 +177,6 @@ macros {
     };
 };
 
-&mmv {
-    time-to-max-speed-ms = <60>;
-    delay-before-movement-ms = <40>;
-    acceleration-exponent=<2>;
-}
-
-&mwh {
-    time-to-max-speed-ms = <30>;
-    delay-before-movement-ms = <150>;
-    acceleration-exponent=<2>;
-};
 
     /* Automatically generated keymap */
     keymap {
