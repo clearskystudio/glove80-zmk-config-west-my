@@ -200,19 +200,19 @@ macros {
 };
 
 
-   /* Automatically generated keymap */
+    /* Automatically generated keymap */
     keymap {
         compatible = "zmk,keymap";
 
 
         layer_Base {
             bindings = <
-     &trans    &trans   &trans    &trans           &trans                                                                                                                   &trans     &trans    &trans      &trans     &trans
-     &trans    &kp N1   &kp N2    &kp N3  &rlt 0 NUMBER_4  &kp N5                                                                                          &kp N6  &elt 0 NUMBER_7     &kp N8    &invlp      &invrp     &trans
-     &trans     &kp Q    &kp W     &kp F            &kp P   &kp B                                                                                           &kp J            &kp L      &kp U     &kp Y    &kp SEMI     &trans
-    &kp ESC     &kp A    &kp R     &kp S            &kp T   &kp G                                                                                           &kp M            &kp N      &kp E     &kp I       &kp O    &kp SQT
-   &kp LGUI     &kp Z    &kp X     &kp C            &kp D   &kp V  &mt LSHFT SPACE  &lt 1 BSPC  &mt LCTRL TAB  &lt 5 RGUI  &mt LCTRL RET  &mt RSHFT SPACE   &kp K            &kp H  &kp COMMA   &kp DOT  &lt 1 FSLH  &kp PG_UP
- &magic 2 0  &kp HOME  &kp END  &kp LEFT        &kp RIGHT             &mt LALT ESC       &none          &to 1       &to 5          &none     &mt RALT ESC                   &kp UP   &kp DOWN  &kp LBKT    &kp RBKT  &kp PG_DN
+     &trans    &trans   &trans    &trans           &trans                                                                                                       &trans     &trans    &trans      &trans     &trans
+     &trans    &kp N1   &kp N2    &kp N3  &rlt 0 NUMBER_4  &kp N5                                                                              &kp N6  &elt 0 NUMBER_7     &kp N8    &invlp      &invrp     &trans
+     &trans     &kp Q    &kp W     &kp F            &kp P   &kp B                                                                               &kp J            &kp L      &kp U     &kp Y    &kp SEMI     &trans
+    &kp ESC     &kp A    &kp R     &kp S            &kp T   &kp G                                                                               &kp M            &kp N      &kp E     &kp I       &kp O    &kp SQT
+   &kp LGUI     &kp Z    &kp X     &kp C            &kp D   &kp V  &kp SPACE  &lt 5 BSPC  &mt LCTRL DEL  &lt 3 RGUI  &mt LCTRL RET  &kp SPACE   &kp K            &kp H  &kp COMMA   &kp DOT  &lt 1 FSLH  &kp PG_UP
+ &magic 2 0  &kp HOME  &kp END  &kp LEFT        &kp RIGHT          &kp LSHFT       &to 5   &mt LALT TAB       &to 1   &mt RALT ESC  &kp RSHFT                   &kp UP   &kp DOWN  &kp LBKT    &kp RBKT  &kp PG_DN
             >;
         };
 
@@ -255,7 +255,7 @@ macros {
      &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans    &trans  &trans
      &trans  &trans  &trans   &kp E   &kp R   &kp T                                                   &kp Y   &kp U   &kp I   &kp O     &kp P  &trans
      &trans  &trans   &kp S   &kp D   &kp F  &trans                                                   &kp H   &kp J   &kp K   &kp L  &kp SEMI  &trans
-     &trans  &trans  &trans  &trans   &kp V   &kp B  &trans  &trans  &trans  &trans  &trans  &trans   &kp N   &kp M  &trans  &trans    &trans  &trans
+     &trans  &trans  &trans  &trans   &kp V   &kp B  &trans  &trans   &to 0  &trans  &trans  &trans   &kp N   &kp M  &trans  &trans    &trans  &trans
  &magic 2 0  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans  &trans
             >;
         };
@@ -273,5 +273,4 @@ macros {
 
     };
 };
-
 
